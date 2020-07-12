@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+
+
 <style>
     .footer {
-       position: fixed;
+      
        left: 0;
        bottom: 0;
        width: 100%;
@@ -17,7 +19,28 @@
        color: #007bff;
        text-align: center;
     }
-    </style>
+
+    .title {
+        /* How come "margin-right" works but "right" does not? */
+        /* Image Titles */
+        margin-right: 10px;
+        text-align: center;
+        left: 5px;
+        bottom:20%;
+        background-color:#007bff;
+        color: white;
+        font-weight: bold;
+        position: relative;
+    }
+
+    .img-thumbnail {
+        /* max width is 510px?  Anything further doesn't change, is this the width of the container? Inspect says the conainter is 540px*/
+        width: 510px;
+        height: 250px;
+        position: relative;
+    }
+
+</style>
 
 </head>
 
@@ -46,36 +69,48 @@
             </div>
         </div>
         
+        <!-- How do I get the images to expand to the entire column?
+             Style Width and Height do not seem to make a difference here
+         -->
         <div class="row">
-            <div class="col-md-6">
-                <img src="assets/maze.jpg" alt="picture of maze" class="img-thumbnail" style="width: 300px" height="300px">
-                <div class="title">Maze Game</div>
+            <div class="col-md-4">
+                <img src="assets/maze.jpg" alt="picture of maze" class="img-thumbnail" style="position: relative;">
+                <div class="title" style="position: relative;">Maze Game</div>
             </div>
-            <div class="col-md-6">
-                <img src="assets/img-5557_feature.jpg" alt="picture of tetris blocks" class="img-thumbnail" style="width: 323px" height="323px">
-                <div class="title">Tetris Remix</div>
+            <div class="col-md-4">
+                <img src="assets/img-5557_feature.jpg" alt="picture of tetris blocks" class="img-thumbnail" style="position: relative;">
+                <div class="title" style="position: relative;">Tetris Remix</div>
             </div>
+
+            <div class="col-md-4"></div>
+
         </div>
 
         <div class="row">
-            <div class="col-md-6">
-                <img src="assets/music image.jpg" alt="picture of headphones" class="img-thumbnail" style="width: 300px" height="300px">
-                <div class="title">Music Match</div>
+            <div class="col-md-4">
+                <img src="assets/music image.jpg" alt="picture of headphones" class="img-thumbnail" style="position: relative;">
+                <div class="title" style="position: relative;">Music Match</div>
             </div>
-            <div class="col-md-6">
-                <img src="assets/football.jpg" alt="picture of a football" class="img-thumbnail" style="width:255px" height="250px">
-                <div class="title">Full Blitz</div>
+            <div class="col-md-4">
+                <img src="assets/football.jpg" alt="picture of a football" class="img-thumbnail" style="position: relative;">
+                <div class="title" style="position: relative;">Full Blitz</div>
+
+                <div class="col-md-4"></div>
                 
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-6">
-                <img src="assets/00aE5K1WsINRBBPjHLRHbXV-1.jpg" alt="picture of a keyboard" class="img-thumbnail" style="width: 300px" height="300px">
-                <div class="title">Keyboard Warrior</div>
+            <div class="col-md-4">
+                <img src="assets/00aE5K1WsINRBBPjHLRHbXV-1.jpg" alt="picture of a keyboard" class="img-thumbnail" style="position: relative;">
+                <div class="title" style="position: relative;">Keyboard Warrior</div>
             </div>
         </div>
-
+        
+        <div class="col-md-4"></div>
+        
+        <div class="col-md-4"></div>
+        
     </div>
 
     <div class="footer" style="text-align: center;">Footer</div>
