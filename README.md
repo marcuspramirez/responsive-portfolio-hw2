@@ -1,1 +1,1 @@
-# responsive-portfolio-hw2
+Responsive design to ensures that web application renders well on a variety of devices and window or screen sizes. 
