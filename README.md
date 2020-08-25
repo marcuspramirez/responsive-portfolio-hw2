@@ -1,1 +1,3 @@
-Responsive design to ensures that web application renders well on a variety of devices and window or screen sizes. 
+Marcus Ramirez portfolio
+
+![](assets/Portfolio%20Screenshot.PNG)
