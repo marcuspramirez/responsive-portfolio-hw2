@@ -1,0 +1,47 @@
+.footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #17A2B8;
+    color: #17A2B8;
+    text-align: center;
+    position: absolute;
+}
+
+.title {
+
+    /* Image Titles */
+    margin-right: 10px;
+    text-align: center;
+    left: 5px;
+    bottom: 20%;
+    background-color: #17A2B8;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.img-thumbnail {
+
+    width: 510px;
+    height: 250px;
+    position: relative;
+}
+
+a {
+    color: white;
+}
+
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+body {
+    background-image: url('assets/blue.jpg');
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+  }
