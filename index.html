@@ -48,7 +48,7 @@
             left: 0;
             bottom: 0px;
             width: 100%;
-            background-color: #FFC107;
+            background-color: #212529;
             color: #FFC107;
             text-align: center;
             position: absolute;
@@ -71,7 +71,7 @@
         }
 
         .container {
-            border: dotted #FFC107;
+            border: dotted white;
             margin-top: 50px;
         }
 
@@ -85,23 +85,36 @@
             text-align: center;
         }
 
+        body {
+    background-image: url('assets/blue.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  #menu {
+      color: white;
+  }
+
+
+
     </style>
 
 
 
 </head>
 
-<nav class="navbar navbar-expand-md navbar-light bg-warning">
-    <a class="navbar-brand" href="#">Marcus Ramirez</a>
+<nav class="navbar navbar-expand-md navbar-light bg-dark">
+    <a class="navbar-brand" id="menu" href="#">Marcus Ramirez</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="./index.html">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="./contact.html">Contact</a>
+            <a class="nav-item nav-link active" id="menu" href="./index.html">About <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" id="menu" href="./portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" id="menu" href="./contact.html">Contact</a>
         </div>
     </div>
 </nav>
